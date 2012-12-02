@@ -73,7 +73,5 @@ public class car_park {
 		Object result2 = getCar.popACar(IDCard);
 		assertEquals(result1, carNumber);
 		assertNull(result2);
-		
-		
 	}
 }

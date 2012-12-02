@@ -1,6 +1,5 @@
 package com.park;
 
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,8 +16,8 @@ public class carPark {
 		this.totalPark = COUNT;
 		this.idcard2carnum = new HashMap();
 	}
-	
-	public boolean pushACar(String IDcard,String carNumber){
+
+	public boolean pushACar(String IDcard, String carNumber){
 		if(this.count == this.totalPark){
 			return false;
 		}
